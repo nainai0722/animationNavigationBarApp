@@ -8,7 +8,9 @@
 
 #import "ViewController.h"
 #import "NextViewController.h"
+#import <LUKeychainAccess/LUKeychainAccess.h>
 @interface ViewController ()
+@property (weak, nonatomic) IBOutlet UILabel *label;
 
 @end
 
@@ -55,6 +57,10 @@
 - (IBAction)touchNextView:(id)sender {
     NextViewController *controller = [[NextViewController alloc] initWithNibName:@"NextViewController" bundle:nil];
     [self.navigationController pushViewController:controller animated:YES];
+}
+- (IBAction)showkeyChain:(id)sender {
+    self.label.hidden = NO;
+    self.label.text = [[LUKeychainAccess standardKeychainAccess] stringForKey:@"rice"];
 }
 
 - (void)didReceiveMemoryWarning {

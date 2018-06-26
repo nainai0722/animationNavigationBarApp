@@ -1,0 +1,16 @@
+PODS:
+  - LUKeychainAccess (1.2.5)
+
+DEPENDENCIES:
+  - LUKeychainAccess (~> 1.2)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - LUKeychainAccess
+
+SPEC CHECKSUMS:
+  LUKeychainAccess: d22fc00b33ad92c7532962b86daa94c14b85ecbe
+
+PODFILE CHECKSUM: ddffe3e675ec884bcacd46d1fce6d7e62017c40c
+
+COCOAPODS: 1.5.3

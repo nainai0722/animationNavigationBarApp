@@ -38,6 +38,10 @@
 		185230E320DBFA4A0076C155 /* bg_w1500_aozora.png in Resources */ = {isa = PBXBuildFile; fileRef = 185230DF20DBFA4A0076C155 /* bg_w1500_aozora.png */; };
 		185230E420DBFA4A0076C155 /* bg_w1500_aozora.png in Resources */ = {isa = PBXBuildFile; fileRef = 185230DF20DBFA4A0076C155 /* bg_w1500_aozora.png */; };
 		185230E520DBFA4A0076C155 /* bg_w1500_aozora.png in Resources */ = {isa = PBXBuildFile; fileRef = 185230DF20DBFA4A0076C155 /* bg_w1500_aozora.png */; };
+		1887C8C620E149C5008930F0 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1887C8C520E149C5008930F0 /* Security.framework */; };
+		1E51F02581AC013B009C4A4F /* libPods-animationNavigationBarApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CC637DD0433B111472FCFD7A /* libPods-animationNavigationBarApp.a */; };
+		4AD173A15525F325CE02C8D5 /* libPods-animationNavigationBarAppUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BE7162B69C35FC37B019E56 /* libPods-animationNavigationBarAppUITests.a */; };
+		9346083C51016284FB750381 /* libPods-animationNavigationBarAppTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FB91CDA36D27D1A6EE76E59 /* libPods-animationNavigationBarAppTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +62,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		049B20F3A473C0E13BC7CC37 /* Pods-animationNavigationBarAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-animationNavigationBarAppUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-animationNavigationBarAppUITests/Pods-animationNavigationBarAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		0BE7162B69C35FC37B019E56 /* libPods-animationNavigationBarAppUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-animationNavigationBarAppUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1852308E20DBEBC40076C155 /* animationNavigationBarApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = animationNavigationBarApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1852309120DBEBC40076C155 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1852309220DBEBC40076C155 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -82,6 +88,15 @@
 		185230D420DBF6AB0076C155 /* bg_pattern2_aozora.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg_pattern2_aozora.png; sourceTree = "<group>"; };
 		185230DE20DBFA4A0076C155 /* bg_w1500_yuyake.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg_w1500_yuyake.png; sourceTree = "<group>"; };
 		185230DF20DBFA4A0076C155 /* bg_w1500_aozora.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg_w1500_aozora.png; sourceTree = "<group>"; };
+		1887C8C520E149C5008930F0 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		1887C8C720E14B05008930F0 /* animationNavigationBarApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = animationNavigationBarApp.entitlements; sourceTree = "<group>"; };
+		35E06C7BE9AE9CA10B410499 /* Pods-animationNavigationBarApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-animationNavigationBarApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-animationNavigationBarApp/Pods-animationNavigationBarApp.release.xcconfig"; sourceTree = "<group>"; };
+		7FB91CDA36D27D1A6EE76E59 /* libPods-animationNavigationBarAppTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-animationNavigationBarAppTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		806710BDE491016DAB62025C /* Pods-animationNavigationBarAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-animationNavigationBarAppTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-animationNavigationBarAppTests/Pods-animationNavigationBarAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		99F86EBC24AFEEC47F4B5B9A /* Pods-animationNavigationBarAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-animationNavigationBarAppUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-animationNavigationBarAppUITests/Pods-animationNavigationBarAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C5D642D3A200438E386C8FBF /* Pods-animationNavigationBarApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-animationNavigationBarApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-animationNavigationBarApp/Pods-animationNavigationBarApp.debug.xcconfig"; sourceTree = "<group>"; };
+		CC637DD0433B111472FCFD7A /* libPods-animationNavigationBarApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-animationNavigationBarApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDC52242EA605CE815185996 /* Pods-animationNavigationBarAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-animationNavigationBarAppTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-animationNavigationBarAppTests/Pods-animationNavigationBarAppTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +104,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1887C8C620E149C5008930F0 /* Security.framework in Frameworks */,
+				1E51F02581AC013B009C4A4F /* libPods-animationNavigationBarApp.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -96,6 +113,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9346083C51016284FB750381 /* libPods-animationNavigationBarAppTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -103,12 +121,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4AD173A15525F325CE02C8D5 /* libPods-animationNavigationBarAppUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0C1D7B7D44BC5776D4E1D642 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C5D642D3A200438E386C8FBF /* Pods-animationNavigationBarApp.debug.xcconfig */,
+				35E06C7BE9AE9CA10B410499 /* Pods-animationNavigationBarApp.release.xcconfig */,
+				CDC52242EA605CE815185996 /* Pods-animationNavigationBarAppTests.debug.xcconfig */,
+				806710BDE491016DAB62025C /* Pods-animationNavigationBarAppTests.release.xcconfig */,
+				99F86EBC24AFEEC47F4B5B9A /* Pods-animationNavigationBarAppUITests.debug.xcconfig */,
+				049B20F3A473C0E13BC7CC37 /* Pods-animationNavigationBarAppUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		1852308520DBEBC40076C155 = {
 			isa = PBXGroup;
 			children = (
@@ -117,6 +149,8 @@
 				185230A920DBEBC90076C155 /* animationNavigationBarAppTests */,
 				185230B420DBEBC90076C155 /* animationNavigationBarAppUITests */,
 				1852308F20DBEBC40076C155 /* Products */,
+				0C1D7B7D44BC5776D4E1D642 /* Pods */,
+				42F95850E893C090E4F72A16 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -133,6 +167,7 @@
 		1852309020DBEBC40076C155 /* animationNavigationBarApp */ = {
 			isa = PBXGroup;
 			children = (
+				1887C8C720E14B05008930F0 /* animationNavigationBarApp.entitlements */,
 				1852309120DBEBC40076C155 /* AppDelegate.h */,
 				1852309220DBEBC40076C155 /* AppDelegate.m */,
 				1852309420DBEBC40076C155 /* ViewController.h */,
@@ -187,6 +222,17 @@
 			path = image;
 			sourceTree = "<group>";
 		};
+		42F95850E893C090E4F72A16 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1887C8C520E149C5008930F0 /* Security.framework */,
+				CC637DD0433B111472FCFD7A /* libPods-animationNavigationBarApp.a */,
+				7FB91CDA36D27D1A6EE76E59 /* libPods-animationNavigationBarAppTests.a */,
+				0BE7162B69C35FC37B019E56 /* libPods-animationNavigationBarAppUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -194,6 +240,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 185230BA20DBEBC90076C155 /* Build configuration list for PBXNativeTarget "animationNavigationBarApp" */;
 			buildPhases = (
+				6991DD33D7C6559FB8FE6C47 /* [CP] Check Pods Manifest.lock */,
 				1852308A20DBEBC40076C155 /* Sources */,
 				1852308B20DBEBC40076C155 /* Frameworks */,
 				1852308C20DBEBC40076C155 /* Resources */,
@@ -211,6 +258,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 185230BD20DBEBC90076C155 /* Build configuration list for PBXNativeTarget "animationNavigationBarAppTests" */;
 			buildPhases = (
+				19345DEE8EDA94E049595A29 /* [CP] Check Pods Manifest.lock */,
 				185230A220DBEBC90076C155 /* Sources */,
 				185230A320DBEBC90076C155 /* Frameworks */,
 				185230A420DBEBC90076C155 /* Resources */,
@@ -229,6 +277,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 185230C020DBEBC90076C155 /* Build configuration list for PBXNativeTarget "animationNavigationBarAppUITests" */;
 			buildPhases = (
+				DFE639C8929E15CB4D4FD9E5 /* [CP] Check Pods Manifest.lock */,
 				185230AD20DBEBC90076C155 /* Sources */,
 				185230AE20DBEBC90076C155 /* Frameworks */,
 				185230AF20DBEBC90076C155 /* Resources */,
@@ -254,6 +303,11 @@
 				TargetAttributes = {
 					1852308D20DBEBC40076C155 = {
 						CreatedOnToolsVersion = 9.4;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
 					};
 					185230A520DBEBC90076C155 = {
 						CreatedOnToolsVersion = 9.4;
@@ -331,6 +385,63 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		19345DEE8EDA94E049595A29 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-animationNavigationBarAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6991DD33D7C6559FB8FE6C47 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-animationNavigationBarApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DFE639C8929E15CB4D4FD9E5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-animationNavigationBarAppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		1852308A20DBEBC40076C155 /* Sources */ = {
@@ -501,8 +612,10 @@
 		};
 		185230BB20DBEBC90076C155 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C5D642D3A200438E386C8FBF /* Pods-animationNavigationBarApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = animationNavigationBarApp/animationNavigationBarApp.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = N9CSDJQMXG;
 				INFOPLIST_FILE = animationNavigationBarApp/Info.plist;
@@ -519,8 +632,10 @@
 		};
 		185230BC20DBEBC90076C155 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 35E06C7BE9AE9CA10B410499 /* Pods-animationNavigationBarApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = animationNavigationBarApp/animationNavigationBarApp.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = N9CSDJQMXG;
 				INFOPLIST_FILE = animationNavigationBarApp/Info.plist;
@@ -537,6 +652,7 @@
 		};
 		185230BE20DBEBC90076C155 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CDC52242EA605CE815185996 /* Pods-animationNavigationBarAppTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -556,6 +672,7 @@
 		};
 		185230BF20DBEBC90076C155 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 806710BDE491016DAB62025C /* Pods-animationNavigationBarAppTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -575,6 +692,7 @@
 		};
 		185230C120DBEBC90076C155 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 99F86EBC24AFEEC47F4B5B9A /* Pods-animationNavigationBarAppUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = N9CSDJQMXG;
@@ -593,6 +711,7 @@
 		};
 		185230C220DBEBC90076C155 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 049B20F3A473C0E13BC7CC37 /* Pods-animationNavigationBarAppUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = N9CSDJQMXG;
